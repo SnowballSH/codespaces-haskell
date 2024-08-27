@@ -1,4 +1,11 @@
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "postCreateCommand": "bash .devcontainer/install.sh"
+    "postCreateCommand": "bash .devcontainer/install.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "haskell.haskell"
+            ]
+        }
+    }
 }
